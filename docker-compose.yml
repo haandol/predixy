@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   predixy:
-    image: haandol/predixy:1.0.4
+    image: haandol/predixy:latest
     volumes:
       - ./conf:/etc/predixy/conf
     ports:
