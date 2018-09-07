@@ -15,4 +15,4 @@ RUN apt-get update && apt-get upgrade -y \
 
 ADD conf /etc/predixy
 
-CMD ["/usr/local/bin/predixy", "/etc/predixy/conf"]
+CMD ["/usr/local/bin/predixy", "/etc/predixy/conf/predixy.conf"]
