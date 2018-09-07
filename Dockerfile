@@ -13,6 +13,6 @@ RUN apt-get update && apt-get upgrade -y \
     && mv src/predixy /usr/local/bin \
     && mkdir -p /etc/predixy/conf
 
-ADD conf /etc/predixy
+ADD conf /etc/predixy/conf
 
 CMD ["/usr/local/bin/predixy", "/etc/predixy/conf/predixy.conf"]
